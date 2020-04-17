@@ -1,0 +1,16 @@
+local_settings.py
+*.sqlite3
+
+#pycharm
+.ideal/
+.DS_Store
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+#database migrations
+*/migrations/*.py
+
+!*/migrations/__init__.py
